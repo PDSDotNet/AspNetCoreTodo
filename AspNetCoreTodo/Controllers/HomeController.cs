@@ -17,14 +17,17 @@ namespace AspNetCoreTodo.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            //ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "ToDoApp: programa usado para administrar tareas.";
+            ViewData["Message1"] = "Diplomatura DotNet UTN-FRBA.";
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            //ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "PDS DotNet."; 
 
             return View();
         }
