@@ -25,7 +25,7 @@ namespace AspNetCoreTodo.Services
 
             var item3 = new TodoItem
             {
-                Title = "Ganar algo unos morlacos con ASP.NET Core",
+                Title = "Ganar algunos morlacos con ASP.NET Core",
                 DueAt = DateTimeOffset.Now.AddYears(20)
             };
 
